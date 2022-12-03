@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+
+body {
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+    background-color: rgb(247, 232, 232);
+  }
+
+h1 {
+    font-size: 5vw;
+  }
+
+h2 {
+    font-size: 4.7vw ;
+}
+
+h5 {
+    font-size: 3vw;
+}
+
+h6 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.9vw;
+  }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ===== Slider ===== */
+
+.slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.slider .cont-slider{
+    position: absolute;
+    left: 9vw;
+    top: 30%;
+    z-index: 99;
+    transform: translate(0,-50%)
+}
+
+.slider .cont-slider {
+    display: flex;
+    
+}
+
+.cont-slider {
+    background-color: rgba(240, 248, 255, 0.24);
+    padding: 20px;
+    border-radius: 5.6vw;
+}
+
+.slider-p {
+    background-color: #ffb4b463;
+    border-radius: 1.3vw;
+    width: 65%;
+    padding: 5px;
+}
+
+/*=====Header====*/
+
+.simple-link {
+    display: flex;
+
+}
+
+header {
+    width: 100%;
+    height: 80%; 
+    position: fixed;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+nav .simple-link:hover {
+    color: rgb(141, 119, 119);
+    transition: all .3s ease;
+}
+
+  /*Main other*/
+
+  .cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .intro {
+    width: 75%;
+    margin: auto;
+  }
+
+  .black-bar {
+    width: 35%;
+    margin: auto;
+    border-bottom: 2px solid black;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 0.7vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+        border-radius: 10vw;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
