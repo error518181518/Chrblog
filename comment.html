@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    textarea {
+        width: 75vw;
+    }
+    .int {
+        background-color: rgb(230, 212, 212);
+    }
+
+    button {
+        margin-right: 15vw;
+    }
+
+    .comtp {
+        margin-top: 2.4vw;
+        background-color: rgb(226, 209, 209);
+        font-size: 1.2vw;
+        border-radius: 10vw;
+        padding: 2px;
+        width: 35%;
+    }
+</style>
+
+<body>
+<script src="cmt.js"></script>
+
+    <header>
+    <!--nav-->
+    <nav>
+        <li><a href="index.html" class="simple-link"><h6>Home</h6></a></li>
+
+    
+            <li><a href="tips.html" class="simple-link"><h6>Tips</h6></a>
+            </li>
+    
+            <li><a href="arts.html" class="simple-link"><h6>Arts</h6></a>
+            </li>
+
+
+    </nav>
+
+</header>
+            <!-- slider -->
+            <div class="slider">
+                <div class="thumbnail">
+                    <img style="opacity: 76%; width: 98vw;" src="illus01.png" alt="">
+                </div>
+                <div class="cont-slider">
+                    <h5 class="title">
+                        Any ques?
+                        <br/>
+                        <p>Ask and answer here! Space for U</p>
+                       <p class="slider-p">By Thư - 27.11.22</p>
+                    </h5>
+
+
+                </div>
+            </div> 
+    <!--Comment-->
+
+    <div class="int">
+        <h5 style="text-align: center;">Comment!
+            <br>
+        <p>
+            Please type your name in the comment if you want!
+        </p></h5>
+    </div>
+
+    <div class="black-bar"></div>
+    <br>
+
+
+            <textarea name="comment" id="cmt" cols="30" rows="10"></textarea> 
+            <br>
+            <button onclick="comment()">Post</button>
+<br>
+ <div class="black-bar"></div>
+        <div class="comtp"> <div id="cmtp"> </div></div>
+
+
+</div>
+</body>
+</html>
+
